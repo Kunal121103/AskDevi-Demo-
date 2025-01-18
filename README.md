@@ -1,3 +1,33 @@
+## AskDevi - Your Celestial Guide
+
+AskDevi is a Next.js application that provides users with personalized astrological insights based on their birth details. This project integrates with Firestore for data storage, uses geolocation APIs to fetch coordinates, and connects to astrological APIs to generate birth charts and planetary positions.
+
+## Features
+
+- User profile management
+- Geolocation integration
+- Astrological data fetching and display
+- Responsive design for mobile and desktop
+- Form validation
+- Error handling for API calls and database interactions
+
+## Tech Stack
+
+- Next.js 13 (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase (Firestore)
+- Axios for API calls
+
+## Setup Instructions
+
+1. Clone the repository
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

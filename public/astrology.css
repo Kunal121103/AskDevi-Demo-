@@ -1,19 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;600&display=swap");
 
-:root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   font-family: "Spectral", serif;
+  background-image: url("/stars-bg.png");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .cosmic-border {
@@ -29,6 +20,7 @@ body {
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
 }
 
+/* New styles for astro details page */
 .zodiac-symbol {
   font-size: 1.5em;
   margin-left: 0.5rem;
